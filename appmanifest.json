@@ -1,0 +1,51 @@
+{
+	"name": "Color Match",
+	"short_name": "Color Match",
+	"description": "Have Fun",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#cdd9db",
+	"icons": [
+		{
+			"src": "icons/icon-16_.png",
+			"sizes": "17x17",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32_.png",
+			"sizes": "33x33",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-64_.png",
+			"sizes": "65x65",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256_.png",
+			"sizes": "257x257",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-512_.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

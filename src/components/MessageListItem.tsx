@@ -15,7 +15,7 @@ const MessageListItem: React.FC<MessageListItemProps> = ({ message }) => {
     <IonItem routerLink={`/message/${message.id}`} detail={false}>
       <div slot="start" className="dot dot-unread"></div>
       <IonLabel className="ion-text-wrap">
-        <h2>
+        <h2 className=' bg-red-400'>
           {message.fromName}
           <span className="date">
             <IonNote>{message.date}</IonNote>

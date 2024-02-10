@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+    width: 70px;
+    height: 70px;
+  }
+  svg:hover {
+    fill: red;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 30px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgb(255, 255, 255); 
+    background-color: antiquewhite;
+    border-radius: 20px;
+    width:10px;
+    margin-top:60px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border: 7px solid rgba(0, 0, 0, 0);
+    background: rgb(154, 212, 166); 
+    background-clip: padding-box;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    border: 7px solid rgba(0, 0, 0, 0);
+    background: rgb(134, 195, 146); 
+    background-clip: padding-box;
+    border-radius: 20px;
+  }
+  
+  @media only screen and (max-width: 639px) {
+    /* width */
+  ::-webkit-scrollbar {
+    width: 18px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgb(255, 255, 255); 
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width:5px;
+    margin-top:60px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border: 3px solid rgba(0, 0, 0, 0);
+    background: rgb(97, 223, 154); 
+    background-clip: padding-box;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    border: 3px solid rgba(0, 0, 0, 0);
+    background: rgb(75, 174, 120); 
+    background-clip: padding-box;
+    border-radius: 5px;
+  }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    /* width */
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgb(255, 255, 255); 
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width:10px;
+    margin-top:60px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border: 4.5px solid rgba(0, 0, 0, 0);
+    background: rgb(154, 212, 166); 
+    background-clip: padding-box;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    border: 5.5px solid rgba(0, 0, 0, 0);
+    background: rgb(134, 195, 146);  
+    background-clip: padding-box;
+    border-radius: 10px;
+  }
+  }
+  
+  
+  body,html,:root {
+    margin: 0 auto;
+   background-color: #eaf9f9;
+   width:100%;
+   height:100%;
+  }
+  
